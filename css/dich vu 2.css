@@ -1,0 +1,30 @@
+
+.e span{
+    color: white;
+    background-color: rgb(15, 54, 38);
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.dịch_vụ_item img{
+    width: 90%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.gội_đầu{
+    display: grid;
+    grid-template-columns: 49% 49%;
+    align-items: center;
+    justify-content: center;
+    padding-left: 14px;
+    padding-right: 14px;
+    margin-top: 1rem;
+}
+
+
+@media(min-width:1300px){
+    .e span{
+        font-size: 19px;
+    }
+}

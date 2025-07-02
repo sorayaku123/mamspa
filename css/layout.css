@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Domine:wght@400..700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: black;
+    height: 300vh;
+}
+
+html{
+    font-family: "Domine";
+}
+
+img{
+    object-fit: cover;
+}
+button{
+    cursor: pointer;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+@media(min-width:436px){
+    .logo{
+        background: none;
+    }
+}
+

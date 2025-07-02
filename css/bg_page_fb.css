@@ -1,0 +1,21 @@
+.ảnh_bìa{
+    background: linear-gradient(to bottom, #000000b3, #0000);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.w{
+        inset: 0 0 40px;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+}
+
+.e{
+        position: relative;
+    overflow: hidden;
+}

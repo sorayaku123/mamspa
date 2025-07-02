@@ -1,0 +1,299 @@
+main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+.giới_thiệu{
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    width: 100%;
+    background-position-x: 60%;
+    background-position-y: 50%;
+    padding-top: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.giới_thiệu h1{
+    color: white;
+    width: 80%;
+    padding-top: 5rem;
+}
+
+.layout_btn{
+    display: flex;
+    column-gap: 1rem;
+}
+
+.layout_btn button{
+    text-transform: uppercase;
+    color: white;
+    background-color: rgb(63, 118, 82);
+    padding: 0.9rem 2rem;
+    font-weight: 600;
+    border-radius: 14px;
+    border: none;
+    margin-top: 1rem;
+}
+.liên_hệ{
+    padding-top: 6rem;
+}
+.thông_tin{
+    color: white;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+.liên_hệ p{
+   font-size: 13px;
+   color: violet;
+   font-weight: bold;
+}
+
+.giới_thiệu_2{
+    background-color: rgba(104, 104, 104, 0.3);
+    color: white;
+    padding-top: 1.5rem;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.giới_thiệu_2 p{
+    font-size: 16px;
+    letter-spacing: 0.25px;
+    padding-top: 1.5rem;
+}
+
+.logo{
+    margin-top: 5px;
+    height: 20vh;
+}
+
+.logos{
+    display: flex;
+    margin-top: 6px;
+}
+
+.logos img{
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    margin-right: 8px;
+    margin-top: 4px;
+}
+
+.logos span{
+    font-size: 20px;
+    margin-top: 4px;
+}
+
+.logo h3{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.các_dịch_vụ_3{
+    background-color: rgba(0, 0, 0, 0.20);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+.các_dịch_vụ_3 img{
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
+.service3_layout{
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+}
+.service3_layout p{
+    color: white;
+    font-size: 22px;
+    text-transform: capitalize;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+.service3_layout a button{
+    border: none;
+    color: violet;
+    font-weight: bold;
+    border: 1px solid white;
+    padding: 0.5rem 1.6rem;
+    background-color: rgba(0, 0, 0, 0.20);
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.layout_text{
+    background-image: linear-gradient(rgba(223, 255, 79, 0), rgb(255, 55, 155));
+}
+
+.cái_cây{
+    width: 100%;
+    min-height: 80vh;
+    background-size: contain;
+    position: relative;
+    z-index: -2;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    padding-top: 5rem;
+}
+
+.cái_cây img{
+    width: 86%;
+    max-width: 100%;
+    aspect-ratio: 1/1;
+}
+
+.layout_img img{
+    max-width: 100%;
+}
+.services{
+    color: rgb(223, 219, 219);
+}
+.services h2{
+    color: white;
+    letter-spacing: 0.5px;
+}
+.layout_text_2{
+    margin-left: 14px;
+}
+.combo{
+    background-color: rgba(104, 104, 104, 0.3);
+background-position-x: 50%;
+background-position-y: 50%;
+background-repeat:no-repeat;
+background-size:cover;
+width: 100%;
+height: 50vh;
+}
+
+.combo_layout_text a img{
+    width: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 18px;
+}
+.combo_layout_text a p{
+    display: inline-block;
+    color: white;
+}
+
+.combo_layout_text a{
+    margin-top: 11px;
+}
+.combo h2{
+    text-align: center;
+    font-size: 32px;
+    letter-spacing: 0.5px;
+    line-height: 46px;
+    color: white;
+    margin-bottom: 1.4rem;
+}
+
+.combo_layout_text{
+    padding-left: 2.5rem;
+}
+.combo a{
+    display: block;
+}
+
+.layout_more{
+    text-align: center;
+    margin-top: 2rem;
+}
+.layout_more span{
+    color: rgb(188, 180, 180);
+}
+
+iframe{
+    max-width: 100%;
+    width: 100%;
+    height: 200px;
+}
+
+.layout_fb{
+    text-align: center;
+}
+
+.img_service img{
+    max-width: 100%;
+    object-fit: cover;
+}
+@media(min-width:436px){
+    .logo{
+        background: none;
+    } 
+}
+@media(min-width:700px){
+    .liên_hệ{
+        padding-top: 8rem;
+    }
+    .logo{
+        height: auto;
+    }
+    .cái_cây{
+        padding-top: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cái_cây img{
+        width: 70%;
+    }
+    .dịch_vụ_item img{
+      width: 80%; 
+        }
+    .gội_đầu{
+        width: 80%;
+    }
+    .service3{
+        width: 80%;
+    }
+    .giới_thiệu_2 p{
+        font-size: 14px;
+    }
+}
+
+
+@media(min-width: 1300px){
+    .giới_thiệu_2 p{
+        font-size: 18px;
+    }
+    .logos{
+        display: flex;
+        justify-content: center;
+    }
+    .dịch_vụ_item span{
+        font-size: 24px;
+    }
+    .layout_text_2{
+        text-align: center;
+    }
+    .layout_logo img{
+        width: 10%;
+    }
+ }
+/* https://www.facebook.com/photo.php?fbid=1188424843313791&set=a.470370381785911&type=3&ref=embed_page */
+
+@media (orientation: landscape) {
+    .liên_hệ{
+        padding-top: 0rem;
+    }
+    .giới_thiệu{
+        height: 110vh;
+    }
+    .combo{
+        height: 70vh;
+    }
+}

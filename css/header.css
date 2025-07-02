@@ -1,0 +1,23 @@
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(21, 20, 20,0.7);
+    position: relative;
+    top: 50px;
+    left: 0px;
+    right: 0px;
+}
+
+header a img{
+    flex: 2;
+    object-fit: contain;
+    max-width: 220px;
+}
+
+.contact{
+  color: white;
+  text-decoration-line: underline;
+  flex: 1;
+}
