@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <p>
-        Hấp dẫn mà thầy sống ở trong rừng một
+Hấp dẫn mà thầy sống ở trong rừng một
 mình để tu tập thiệt ra thì nếu mà không
 kiên trì cũng không có sống nổi ở trong
 rừng cho nên cái bài Kệ đó thì nó đã qua
@@ -1346,6 +1337,3 @@ chọn 30 phút hay là 20 phút ngồi thiền
 tôi cái định vô Lậu chứ không được đi
 kinh hành mà tôi có định vô đầu nhớ chưa
 nhớ rồi thì như vậy là đủ rồi phải không
-    </p>
-</body>
-</html>
